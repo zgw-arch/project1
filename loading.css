@@ -1,0 +1,20 @@
+.app-loading {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.app-loading .app-loading-title {
+    font-size: 24px;
+    color: #333;
+}
+
+/* 深色模式样式 */
+html[data-theme='dark'] .app-loading {
+    background-color: #2c344a;
+}
+html[data-theme='dark'] .app-loading .app-loading-title {
+    color: rgba(255, 255, 255, 0.85);
+}
